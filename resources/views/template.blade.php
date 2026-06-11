@@ -19,22 +19,22 @@
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Pegawai</a>
+        <a class="nav-link active" href="/pegawai">Pegawai</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#">Nama Tabel PR</a>
+        <a class="nav-link" href="#">Hard Disk</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Siswa</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Latihan 1</a>
+        <a class="nav-link" href="/keranjangbelanja">Keranjang Belanja</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Latihan 2</a>
+        <a class="nav-link" href="#">Latihan 2</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">EAS</a>
+        <a class="nav-link" href="#">EAS</a>
       </li>
     </ul>
   </div>
