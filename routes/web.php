@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\KeranjangBelanjaController;
+use App\Http\Controllers\NilaiKuliahController;
 
 Route::get('/pegawai', [PegawaiDBController::class, 'index']);
 Route::get('/pegawai/tambah', [PegawaiDBController::class, 'tambah']);
@@ -16,6 +17,9 @@ Route::get('/keranjangbelanja', [KeranjangBelanjaController::class, 'index']);
 Route::get('/keranjangbelanja/tambah', [KeranjangBelanjaController::class, 'tambah']);
 Route::post('/keranjangbelanja/beli', [KeranjangBelanjaController::class, 'beli']);
 Route::get('/keranjangbelanja/batal/{id}', [KeranjangBelanjaController::class, 'batal']);
+
+Route::get('/nilaikuliah', [NilaiKuliahController::class, 'index']);
+Route::get('/nilaikuliah/tambah', [NilaiKuliahController::class, 'tambah']);
 
 Route::get('/', function () {
     return view('menu');
