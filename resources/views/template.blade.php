@@ -22,7 +22,7 @@
         <a class="nav-link active" href="/pegawai">Pegawai</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#">Hard Disk</a>
+        <a class="nav-link" href="/harddisk">Hard Disk PR</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Siswa</a>
